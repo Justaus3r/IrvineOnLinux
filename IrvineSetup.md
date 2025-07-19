@@ -1,5 +1,5 @@
 # Irvine + MASM + SASM Setup on Linux
-This Semester, I have a course on x86 Assembly Langugage. We are using Irvine library, which is only available on Windows . Since i daily drive Linux , I couldn't use it natively and so i have searched the internet for a Solution. Following is a working solution that should work on any distribution.
+This Semester, I ~~have~~ had a course on x86 Assembly Langugage. We are using Irvine library, which is only available on Windows . Since i daily drive Linux , I couldn't use it natively and so i have searched the internet for a Solution. Following is a working solution that should work on any distribution.
 
 # Table of Contents
 1. [Prerequisites](#prereqs)
