@@ -21,15 +21,22 @@ Since Irvine works only on Windows, we are first going to install `Wine`. It's a
 
 you may also need to install the `winetricks` , `wine-mono` , `wine_gecko` package.
 
-After installing Wine, proceed to installation of PlayOnLinux.
+- After installing Wine, proceed to installation of PlayOnLinux.
 
 [Install PlayOnLinux](https://www.playonlinux.com/en/download.html)
 
-You also need to download MASM (Microsoft Assembler). Note that the newer versions will not work, so download from following link
+- You also need to download MASM (Microsoft Assembler). Note that the newer versions will not work, so download from following link
 
-[Download MASM](https://archive.org/details/install_202507)
+[Download MASM](https://archive.org/details/b64_encoded_blob)
 
-Download Irvine from
+Note that i have uploadded MASM zip on Web Archive as a base64 blob, since Web Archive was always removing it( due to it being a fucking microsoft software probably ). So after downloading the blob, decode using:
+
+````
+$ base64 -d b64_encoded_blob.blob > masm32-v11.zip
+````
+
+
+- Download Irvine32 Library from
 
 [Irvine32-Setup](https://archive.org/details/irvine-7th-edition)
 
