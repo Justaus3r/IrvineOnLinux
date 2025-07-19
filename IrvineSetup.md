@@ -29,7 +29,7 @@ you may also need to install the `winetricks` , `wine-mono` , `wine_gecko` packa
 
 [Download MASM](https://archive.org/details/b64_encoded_blob)
 
-Note that i have uploadded MASM zip on Web Archive as a base64 blob, since Web Archive was always removing it( due to it being a fucking microsoft software probably ). So after downloading the blob, decode using:
+Note that i have uploaded MASM zip on Web Archive as a base64 blob, since Web Archive was always removing it( due to it being a fucking microsoft software probably ). So after downloading the blob, decode using:
 
 ````
 $ base64 -d b64_encoded_blob.blob > masm32-v11.zip
